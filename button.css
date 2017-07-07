@@ -1,0 +1,8 @@
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::before,
+.mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::after {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+#greeting-form > button {
+  margin-top: 8px;
+}
