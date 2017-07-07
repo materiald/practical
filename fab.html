@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="fab.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <p>normal</p>
+    <button class="mdc-fab material-icons" aria-label="Favorite">
+        <span class="mdc-fab__icon">favorite</span>
+    </button>
+
+    <br><br>
+    <p>mini</p>
+    <button class="mdc-fab mdc-fab--mini material-icons" aria-label="Favorite">
+        <span class="mdc-fab__icon">favorite</span>
+    </button>
+
+    <br><br>
+    <p>plain</p>
+    <button class="mdc-fab mdc-fab--plain material-icons" aria-label="Favorite">
+        <span class="mdc-fab__icon">favorite</span>
+    </button>
+
+    <br><br>
+    <p>normal with ripple </p>
+    <button class="mdc-fab material-icons" aria-label="Favorite" data-mdc-auto-init="MDCRipple">
+        <span class="mdc-fab__icon">favorite</span>
+    </button>
+
+    <button class="mdc-fab app-fab--absolute material-icons">
+        <span class="mdc-fab__icon">favorite</span>
+    </button>
+
+
+    <button class="mdc-fab app-fab--absolute2" aria-label="Edit">
+  <span class="mdc-fab__icon">
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+    </svg>
+  </span>
+</button>
+
+
+    <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>
+        mdc.autoInit();
+    </script>
+    <!--<script src="app.js"></script>-->
+</body>
+
+</html>
