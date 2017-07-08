@@ -1,0 +1,12 @@
+.mdc-card__media {
+  background-image: url("img/i7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+}
+
+
+.mdc-card {
+  height: 350px;
+  width: 350px;
+}

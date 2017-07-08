@@ -1,0 +1,14 @@
+.problem {
+  height: 350px;
+  width: 350px;
+  
+}
+
+.mdc-card__supporting-text {
+    display: none;
+}
+
+.problem .mdc-card__supporting-text {
+    overflow-wrap: wrap;
+}
+
