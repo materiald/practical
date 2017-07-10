@@ -1,4 +1,4 @@
-import {MDCIconToggle} from 'material-components-web';
+import { MDCIconToggle } from './node_modules/material-components-web';
 
 // let MDCIconToggle = require('material-components-web');
 

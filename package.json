@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material/icon-toggle": "^0.1.13",
     "material-components-web": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1"
   }
 }
