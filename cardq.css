@@ -1,14 +1,19 @@
-.problem {
-  height: 350px;
-  width: 350px;
-  
-}
 
 .mdc-card__supporting-text {
-    display: none;
+    /*display: none;*/
 }
 
 .problem .mdc-card__supporting-text {
-    overflow-wrap: wrap;
+    /*overflow-wrap: wrap;*/
+}
+
+.problem {
+  width: 350px;
+  height: 350px;
+}
+
+.mdc-card__supporting-text {
+  height: 200px;
+  overflow: hidden;
 }
 

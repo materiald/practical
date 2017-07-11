@@ -7,6 +7,20 @@
 
 
 .mdc-card {
-  height: 350px;
   width: 350px;
+  height: 350px;
+}
+
+.mdc-card__supporting-text {
+  height: 200px;
+  overflow: hidden;
+}
+
+
+.mdc-card--theme-dark {
+    /*background: black;*/
+}
+
+.mdc-button--theme-dark {
+  /*color: #fff;*/
 }
