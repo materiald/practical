@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@material/card": "^0.2.4",
+    "@material/dialog": "^0.3.3",
     "@material/icon-toggle": "^0.1.13",
     "material-components-web": "^0.14.0"
   }
