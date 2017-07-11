@@ -1,0 +1,10 @@
+.i2 {
+    color: orange;
+}
+
+.i3 {
+    color: orange;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+}
+

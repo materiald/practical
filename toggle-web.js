@@ -265,6 +265,13 @@ __WEBPACK_IMPORTED_MODULE_0__material_icon_toggle__["a" /* MDCIconToggle */].att
 __WEBPACK_IMPORTED_MODULE_0__material_icon_toggle__["a" /* MDCIconToggle */].attachTo(document.querySelector('.i2'));
 __WEBPACK_IMPORTED_MODULE_0__material_icon_toggle__["a" /* MDCIconToggle */].attachTo(document.querySelector('.i3'));
 
+
+const iconEl = document.querySelector('.mdc-icon-toggle');
+const status = document.getElementById('status');
+iconEl.addEventListener('MDCIconToggle:change', ({detail}) => {
+  status.textContent = `Icon Toggle is ${detail.isOn ? 'on' : 'off'}`;
+});
+
 /***/ }),
 /* 4 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
