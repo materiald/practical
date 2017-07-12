@@ -15,6 +15,7 @@
   "dependencies": {
     "@material/card": "^0.2.4",
     "@material/dialog": "^0.3.3",
+    "@material/drawer": "^0.5.2",
     "@material/icon-toggle": "^0.1.13",
     "material-components-web": "^0.14.0"
   }
