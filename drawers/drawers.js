@@ -18,6 +18,15 @@ drawerEl.addEventListener('MDCTemporaryDrawer:close', function () {
 // document.querySelector('.menu').addEventListener('click', () => drawer.open = true);
 
 
-
 // var drawer = new mdc.drawer.MDCTemporaryDrawer(document.querySelector("#page__drawer"));
 // document.querySelector("#drawer-nav-button").addEventListener("click", function() { drawer.open = true; });
+
+
+
+
+
+
+
+
+
+
