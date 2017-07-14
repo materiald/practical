@@ -21,3 +21,22 @@ document.querySelector('.default-dialog-activation').addEventListener('click', f
   dialog.lastFocusedTarget = evt.target;
   dialog.show();
 })
+
+
+
+
+
+var dialog2 = new mdc.dialog.MDCDialog(document.querySelector('#mdc-dialog-with-list'));
+
+dialog2.listen('MDCDialog:accept', function() {
+  console.log('accepted');
+})
+
+dialog2.listen('MDCDialog:cancel', function() {
+  console.log('canceled');
+})
+
+document.querySelector('.scrollable-dialog').addEventListener('click', function (evt) {
+  dialog2.lastFocusedTarget = evt.target;
+  dialog2.show();
+})
