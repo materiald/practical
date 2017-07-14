@@ -1,12 +1,12 @@
 
 // // es6 modules - using - @material/dialog
-import {MDCDialog, MDCDialogFoundation, util} from '@material/dialog';
-let dialog = MDCDialog.attachTo(document.querySelector('#my-mdc-dialog'));
+// import {MDCDialog, MDCDialogFoundation, util} from '@material/dialog';
+// let dialog = MDCDialog.attachTo(document.querySelector('#my-mdc-dialog'));
 
-document.querySelector('.default-dialog-activation').addEventListener('click', function (evt) {
-//   dialog.lastFocusedTarget = evt.target;
-  dialog.show();
-})
+// document.querySelector('.default-dialog-activation').addEventListener('click', function (evt) {
+// //   dialog.lastFocusedTarget = evt.target;
+//   dialog.show();
+// })
 
 
 
