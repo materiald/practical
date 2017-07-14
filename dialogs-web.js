@@ -518,7 +518,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 let dialog = __WEBPACK_IMPORTED_MODULE_0__material_dialog__["a" /* MDCDialog */].attachTo(document.querySelector('#my-mdc-dialog'));
 
 document.querySelector('.default-dialog-activation').addEventListener('click', function (evt) {
-  dialog.lastFocusedTarget = evt.target;
+//   dialog.lastFocusedTarget = evt.target;
   dialog.show();
 })
 

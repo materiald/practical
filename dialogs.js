@@ -2,7 +2,7 @@ import {MDCDialog, MDCDialogFoundation, util} from '@material/dialog';
 let dialog = MDCDialog.attachTo(document.querySelector('#my-mdc-dialog'));
 
 document.querySelector('.default-dialog-activation').addEventListener('click', function (evt) {
-  dialog.lastFocusedTarget = evt.target;
+//   dialog.lastFocusedTarget = evt.target;
   dialog.show();
 })
 
