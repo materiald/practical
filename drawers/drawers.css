@@ -1,10 +1,8 @@
-html {
+ html {
     height: 100%;
 }
 
-
 /* Place drawer and content side by side. */
-
 .demo-body {
     display: flex;
     flex-direction: row;
@@ -15,9 +13,7 @@ html {
     width: 100%;
 }
 
-
 /* Stack toolbar and main on top of each other. */
-
 .demo-content {
     display: inline-flex;
     flex-direction: column;
@@ -28,4 +24,4 @@ html {
 
 .demo-main {
     padding-left: 16px;
-}
+} 
