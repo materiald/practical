@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/material-components-web/dist/material-components-web.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="mdc-checkbox">
+        <input type="checkbox" class="mdc-checkbox__native-control" />
+        <div class="mdc-checkbox__background">
+            <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                <path class="mdc-checkbox__checkmark__path" fill="none" stroke="white" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+            </svg>
+            <div class="mdc-checkbox__mixedmark"></div>
+        </div>
+    </div>
+
+
+    <br><br>
+
+    <div class="mdc-form-field">
+        <div class="mdc-checkbox">
+            <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control" />
+            <div class="mdc-checkbox__background">
+                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                    <path class="mdc-checkbox__checkmark__path" fill="none" stroke="white" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                </svg>
+                <div class="mdc-checkbox__mixedmark"></div>
+            </div>
+        </div>
+
+        <label for="my-checkbox">My Checkbox Label</label>
+    </div>
+
+
+
+    <script src="../node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>
+        mdc.autoInit();
+    </script>
+    <!--<script src="app.js"></script>-->
+</body>
+
+</html>
