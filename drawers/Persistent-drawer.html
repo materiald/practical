@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/material-components-web/dist/material-components-web.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+
+    <aside class="mdc-persistent-drawer mdc-typography">
+        <nav class="mdc-persistent-drawer__drawer">
+            <header class="mdc-persistent-drawer__header">
+                <div class="mdc-persistent-drawer__header-content">
+                    Header here
+                </div>
+            </header>
+            <nav id="icon-with-text-demo" class="mdc-persistent-drawer__content mdc-list">
+                <a class="mdc-list-item mdc-persistent-drawer--selected" href="#">
+        <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">inbox</i>Inbox
+      </a>
+                <a class="mdc-list-item" href="#">
+        <i class="material-icons mdc-list-item__start-detail" aria-hidden="true">star</i>Star
+      </a>
+            </nav>
+        </nav>
+    </aside>
+
+    <div class="menu">menu</div>
+
+
+    <script src="../node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>mdc.autoInit();</script>
+       <script src="persistent-drawer.js"></script>   
+</body>
+
+</html>
