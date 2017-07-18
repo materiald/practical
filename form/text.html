@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/material-components-web/dist/material-components-web.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="mdc-textfield">
+        <input type="text" id="my-textfield" class="mdc-textfield__input">
+        <label class="mdc-textfield__label" for="my-textfield">Hint text</label>
+    </div>
+
+    <br><br>
+
+    <label class="mdc-textfield">
+        <input type="text" class="mdc-textfield__input">
+        <span class="mdc-textfield__label">Hint Text</span>
+    </label>
+
+
+    <br><br>
+
+    <label for="textfield-no-js">Textfield with no JS: </label>
+    <div class="mdc-textfield">
+        <input type="text" id="textfield-no-js" class="mdc-textfield__input" placeholder="Hint text">
+    </div>
+
+    <br><br>
+
+    <div class="mdc-textfield mdc-textfield--disabled">
+        <input type="text" id="disabled-textfield" class="mdc-textfield__input" disabled>
+        <label class="mdc-textfield__label" for="disabled-textfield">Disabled text field</label>
+    </div>
+
+    <br><br>
+
+
+    <div class="mdc-textfield mdc-textfield--upgraded">
+        <input type="text" id="pre-filled" class="mdc-textfield__input" value="Pre-filled value">
+        <label class="mdc-textfield__label mdc-textfield__label--float-above" for="pre-filled">
+    Label in correct place
+  </label>
+    </div>
+
+
+    <br><br>
+
+    <div class="mdc-textfield">
+        <input type="text" id="username" class="mdc-textfield__input" aria-controls="username-helptext">
+        <label for="username" class="mdc-textfield__label">Username</label>
+    </div>
+    <p id="username-helptext" class="mdc-textfield-helptext" aria-hidden="true">
+        This will be displayed on your public profile
+    </p>
+
+
+    <br><br>
+
+    <div class="mdc-textfield">
+        <input type="email" id="email" class="mdc-textfield__input">
+        <label for="email" class="mdc-textfield__label">Email address</label>
+    </div>
+    <p class="mdc-textfield-helptext mdc-textfield-helptext--persistent">
+        We will <em>never</em> share your email address with third parties
+    </p>
+
+    <br><br>
+
+    <div class="mdc-textfield">
+        <input type="password" id="pw" class="mdc-textfield__input" required minlength=8>
+        <label for="pw" class="mdc-textfield__label">Password</label>
+    </div>
+
+    <br><br>
+
+    <div class="mdc-textfield">
+        <input required minlength=8 type="password" class="mdc-textfield__input" id="pw" aria-controls="pw-validation-msg">
+        <label for="pw" class="mdc-textfield__label">Choose password</label>
+    </div>
+    <p class="mdc-textfield-helptext
+          mdc-textfield-helptext--persistent
+          mdc-textfield-helptext--validation-msg" id="pw-validation-msg">
+        Must be at least 8 characters long
+    </p>
+
+    <br><br>
+
+    <div class="mdc-textfield mdc-textfield--multiline">
+        <textarea id="multi-line" class="mdc-textfield__input" rows="8" cols="40"></textarea>
+        <label for="multi-line" class="mdc-textfield__label">Multi-line Label</label>
+    </div>
+
+    <br><br>
+
+    <label for="css-only-multiline">Multi-line label: </label>
+    <div class="mdc-textfield mdc-textfield--multiline">
+        <textarea class="mdc-textfield__input" id="css-only-multiline" rows="8" cols="40" placeholder="Tell the world something about yourself!"></textarea>
+    </div>
+
+    <br><br>
+
+    <div class="mdc-textfield mdc-textfield--fullwidth">
+        <input class="mdc-textfield__input" type="text" placeholder="Full-Width Textfield" aria-label="Full-Width Textfield">
+    </div>
+    <div class="mdc-textfield mdc-textfield--multiline mdc-textfield--fullwidth">
+        <textarea class="mdc-textfield__input" placeholder="Full-Width multiline textfield" rows="8" cols="40" aria-label="Full-Width multiline textfield"></textarea>
+    </div>
+
+    <br><br>
+
+    <div class="mdc-textfield mdc-textfield--box">
+        <input type="text" id="tf-box" class="mdc-textfield__input">
+        <label for="tf-box" class="mdc-textfield__label">Your Name</label>
+        <div class="mdc-textfield__bottom-line"></div>
+    </div>
+
+    <br><br>
+
+
+    <label for="css-only-textfield-box">Your name:</label>
+    <div class="mdc-textfield mdc-textfield--box">
+        <input type="text" class="mdc-textfield__input" id="css-only-textfield-box" placeholder="Name">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../node_modules/material-components-web/dist/material-components-web.js"></script>
+    <script>
+        mdc.autoInit();
+    </script>
+    <!--<script src="app.js"></script>-->
+</body>
+
+</html>
