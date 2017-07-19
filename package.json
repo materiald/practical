@@ -21,6 +21,7 @@
     "@material/icon-toggle": "^0.1.13",
     "@material/linear-progress": "^0.1.4",
     "@material/list": "^0.2.12",
+    "@material/menu": "^0.4.1",
     "@material/select": "^0.3.10",
     "material-components-web": "^0.14.0"
   }
