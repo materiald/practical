@@ -19,6 +19,7 @@
     "@material/drawer": "^0.5.2",
     "@material/form-field": "^0.2.9",
     "@material/icon-toggle": "^0.1.13",
+    "@material/linear-progress": "^0.1.4",
     "@material/select": "^0.3.10",
     "material-components-web": "^0.14.0"
   }
